@@ -12,7 +12,8 @@ public class HelloWorld{
         List<Integer> result = new ArrayList<Integer>();
         int[] array = new int[]{1, 2};
         List<Integer> tem = Arrays.asList(array);
-        result.add(tem);
+        //result.add(tem);
+        result.addAll(tem);//maybe this is right
        // System.out.print(result);
      }
 }
